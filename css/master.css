@@ -1,0 +1,33 @@
+.container {
+    width: 500px;
+    margin: 0 auto;
+}
+#mistake {
+    display: none;
+}
+form {
+    padding: 10px;
+}
+
+
+#passStrength {
+  display: flex;
+}
+#passStrWeak {
+  margin-top: 2px;
+  height: 4px;
+  width: 60px;
+  background-color: red;
+}
+#passStrMedium {
+  margin-top: 2px;
+  height: 4px;
+  width: 60px;
+  background-color: orange;
+}
+#passStrStrong {
+  margin-top: 2px;
+  height: 4px;
+  width: 60px;
+  background-color: green;
+}

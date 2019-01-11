@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Form</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/master.css">
+</head>
+
+<body>
+
+
+  <div class="container">
+    <div id="mistake">
+      <p>You did not fill out the form correctly!</p>
+    </div>
+    <form>
+      <div class="form-group">
+        <label for="display-name">Display Name</label>
+        <input type="text" id="display-name" class="form-control">
+        <p id="display-nameP" class="hidden">Must contain at least 5 characters</p>
+      </div>
+      <div class="form-group">
+        <label for="pass">Password</label>
+        <input type="password" id="pass" class="form-control">
+        <div id="passStrength">
+          <p id="passStrWeak" class="hidden"></p>
+          <p id="passStrMedium" class="hidden"></p>
+          <p id="passStrStrong" class="hidden"></p>
+        </div>
+
+        <p id="passP" class="hidden">Must contain at least 5 characters, one Capital letter and one number.</p>
+      </div>
+      <div class="form-group">
+        <label for="pass-confirm">Confirmation</label>
+        <input type="password" id="pass-confirm" class="form-control">
+        <p id="pass-confirmP" class="hidden">Password does not match</p>
+      </div>
+      <div class="form-group">
+        <label for="email">E-mail</label>
+        <input type="text" id="email" class="form-control">
+        <p id="emailP" class="hidden">Must contain at least 5 characters: John@Doe.net</p>
+      </div>
+      <button type="submit" id="send" class="btn btn-default">Submit</button>
+      <button type="reset" id="reset" class="btn btn-default">Reset</button>
+    </form>
+  </div>
+
+
+  <script src="js/jquery-2.2.2.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
