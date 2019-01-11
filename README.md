@@ -1,1 +1,1 @@
-***[LINK](https://jtdevries.github.io/jquery-form/.)
+*** [LINK](https://jtdevries.github.io/jquery-form/.)
